@@ -7,10 +7,10 @@ web.get("https://www.swagbucks.com/surveys")
 time.sleep(1)
 
 email = web.find_element_by_xpath('//*[@id="sbxJxRegEmail"]')
-email.send_keys("s.pircher@gmx.net")
+email.send_keys("")
 time.sleep(1)
 password = web.find_element_by_xpath('//*[@id="sbxJxRegPswd"]')
-password.send_keys("Gamertag132")
+password.send_keys("")
 time.sleep(1)
 login = web.find_element_by_xpath('//*[@id="loginBtn"]')
 login.click()
@@ -41,3 +41,4 @@ while i < 100000:
 
 else:
     web.close()
+
