@@ -8,4 +8,3 @@ upper_limit = upperlimit()
 random_number = random.randrange(0, upper_limit, 1)
 
 print(f"Your random number is {random_number}.")
-
